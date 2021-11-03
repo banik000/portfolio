@@ -9,6 +9,10 @@
  	src: url("fonts/HACKED.ttf");
 }
 
+@font-face {
+    font-family: Artifact;
+    src: url("fonts/icomoon.ttf");
+}
 
 * {
 	padding: 0;
@@ -56,23 +60,15 @@ head, body {
 }
 
 
-.logo-box {
-	position: absolute;
-	width: 30%;
-	top: 45%;
-    left: 75%;
-    transform: translate(-50%,-50%);
-}
-
 #logo {
-	
-    fill: rgb(255, 56, 89);
-    
-    filter: drop-shadow( 0 0 .07em rgb(255, 56, 89));
-    filter: drop-shadow( -.2em 0 2em rgba(255, 56, 89, 0.3));
-    filter: drop-shadow( .2em 0 2em rgba(255, 56, 89, 0.3));
-    
-    animation: shake 600ms ease-in-out infinite alternate;
+	position: absolute;
+  	top: 18%;
+  	left: 60%;
+  	font-family: "Artifact", monospace;
+  	color: rgb(255, 56, 89);
+  	font-size: 27vw;
+  	animation: shake 600ms ease-in-out infinite alternate;
+  	text-shadow: 0 0 .07em rgb(255, 56, 89), -.2em 0 2em rgba(255, 56, 89, 0.3), .2em 0 2em rgba(255, 56, 89, 0.3);
 }
 
 
@@ -142,7 +138,6 @@ button{
 	left: 0;
 	z-index: 2;
 }
-*/
 
 @keyframes flicker {
 		0% { opacity: 0.15795 }
@@ -167,6 +162,8 @@ button{
 		95% { opacity: 0.08351 }
 		100% { opacity: 0.54813 }
 }
+*/
+
 
 @keyframes shake {
 	0%, 100% {

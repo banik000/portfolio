@@ -1,0 +1,2 @@
+02-11-2021: First prototype
+03-11-2021: Removed svg, used glyphs isntead (icomoon), fixed artifact animation
